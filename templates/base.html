@@ -47,17 +47,18 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <a href="{% url 'home' %}" class="logo-homepage">
-                    <img src="" width="30" height="30" alt="logo">
+                    <img src="media/logo.jpg" width="150" height="150" alt="logo">
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="">
                     <div class="input-group w-100">
-                        <input type="text" class="form-control" placeholder="Search for your vinyl" name="search-vinyl" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <input type="text" class="form-control" placeholder="Search for your vinyl" name="search" 
+                            aria-label="search_vinyl" aria-describedby="button-addon2">
                         <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                            <span class="search-vinyl"><i class="fas fa-search"></i></span>
-                        </button>
+                            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">
+                                <span class="search-vinyl"><i class="fas fa-search"></i></span>
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -101,6 +102,16 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class="row main-navbar">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
+            </nav>
         </div>    
     </header>
 
