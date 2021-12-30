@@ -19,6 +19,7 @@
         Vinyl
       </a>
       <div class="dropdown-menu" aria-labelledby="all-vinyl">
+        <a class="dropdown-item" href="{% url 'products' %}?category=house,deep_house,electro,techno">All Vinyl</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=house">House</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=deep_house">Deep House</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=electro">Electro</a>
@@ -32,6 +33,8 @@
         Dj Equipment
       </a>
       <div class="dropdown-menu" aria-labelledby="all-djequipment">
+        <a class="dropdown-item" href="{% url 'products' %}?category=cleaning_vinyl_solutions,cartridges,vinyl_storage,turntables_paraphernalia">
+          All Dj Equipment</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=cleaning_vinyl_solutions">Cleaning Vinyl
           Solutions</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=cartridges">Cartridges</a>
@@ -47,6 +50,7 @@
         Clothing
       </a>
       <div class="dropdown-menu" aria-labelledby="all-clothing">
+        <a class="dropdown-item" href="{% url 'products' %}?category=hoodies,t_shirts,caps">All Clothing</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=hoodies">Hoodies</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=t_shirts">T-Shirts</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=caps">Caps</a>
