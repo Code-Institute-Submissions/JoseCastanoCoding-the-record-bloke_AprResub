@@ -1,0 +1,309 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "vi30121",
+            "name": "Bicep - Atlas",
+            "description": "Recorded in their new studio space, 'Atlas' is 6 minutes of unmistakable Bicep. With synth lines that ebb and flow across broken percussion and ethereal vocal snatches, the track was conceived as they toured their immense live-show across the globe.",
+            "price": 35.00,
+            "category": 1,
+            "rating": 5,
+            "image_url": "https://linkstorage.linkfire.com/bicep.lnk.to/atlas/static/artwork-600x315.jpg",
+            "image": "bicep.PNG"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "vi30122",
+            "name": "Tenderlonius - After the storm",
+            "description": "Tenderlonious returns with a brand new 4 track EP, seamlessly cooking up a blend of hybrid house and broken beat with his unique analogue productions and signature flute instrumentation.",
+            "price": 11.99,
+            "category": 1,
+            "rating": 4.1,
+            "image_url": "https://st.diskunion.net/images/jacket/1008119464.jpg",
+            "image": "tenderlonious.PNG"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "vi30123",
+            "name": "Mall Grab - How the dogs chill Vol1",
+            "description": "Producer & DJ Mall Grab has announced his new EP 'How The Dogs Chill, Vol. 1', on his brand new imprint 'Looking For Trouble'.",
+            "price": 24.99,
+            "category": 2,
+            "rating": 5,
+            "image_url": "https://www.clubbingspain.com/imagenes/Mall-Grab-How-The-Dogs-Chill-Vol1.jpg",
+            "image": "mallGrab.PNG"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "vi30124",
+            "name": "Four Tet - Sixteen Oceans",
+            "description": "Wonderful new Four Tet album and perfect shutdown mellow soundtrack for the times. A fab follow up to the equally great New Energy.",
+            "price": 29.99,
+            "category": 2,
+            "rating": 4.5,
+            "image_url": "https://cdn.shopify.com/s/files/1/0064/6964/8502/products/FourTetSixteenOceansVinyl2.png?v=1597405984",
+            "image": "fourTet.PNG"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "vi30125",
+            "name": "The Hacker and Various - Exit Planet Earth: Carbon",
+            "description": "Exit planet earth by 20/20 Vision is a new series of various artist vinyl releases, selected and compiled by Ralph Lawson.",
+            "price": 9.99,
+            "category": 3,
+            "rating": 3.9,
+            "image_url": "https://img.discogs.com/mhKS6YSyDS4B7Sm4arVm3terbhc=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-15035737-1585825001-1168.jpeg.jpg",
+            "image": "theHacker.PNG"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "vi30126",
+            "name": "Henrik Schwarz - Together",
+            "description": "By using acoustic instruments as the source of his music, he creates freshly new electronic sounds through its treatment with digital interfaces.",
+            "price": 14.99,
+            "category": 3,
+            "rating": 3.9,
+            "image_url": "https://gfx67.decks.de/decks/gfx/co_large/front/end_c/cgj-7c.jpg",
+            "image": "media/henrikSchwarz.PNG"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "vi30127",
+            "name": "Derek Carr - Pursuit",
+            "description": "A long journey of 15 tracks that starts with some deep and dubby chords, acidic grooves and ends up with lush string based ambients.",
+            "price": 11.99,
+            "category": 4,
+            "rating": 4.2,
+            "image_url": "https://analogvine.com/wp-content/uploads/2020/03/CS754820-01A-MED.jpg",
+            "image": "derekCarr.PNG"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "vi30128",
+            "name": "Laurent Garnier - Feelin Good",
+            "description": "Debuting on Rekids, Laurent Garnier & Chambray collaborate for a colossal single entitled Feelin' Good featuring two outstanding remixes from label owner Radio Slave.",
+            "price": 22,
+            "category": 4,
+            "rating": 4.1,
+            "image_url": "https://img.discogs.com/eApL5-YgWn3UaQ1ylTeV9-NDhb0=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-13868503-1563384941-6309.jpeg.jpg",
+            "image": "laurentGarnier.PNG"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "cl30121",
+            "name": "Big Fudge - Record Cleaner Kit",
+            "description": "Removes dust, dirt and fingerprints. Complete care system for your record collection.",
+            "price": 12.99,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "https://imagescdn.juno.co.uk/full/IS818679-01-01-BIG.jpg",
+            "image": "bigfudge.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "ca30121",
+            "name": "Ortofon Concorde MKII MIX",
+            "description": "The general purpose Ortofon Concorde MKII MIX Twin combines a pair of turntable cartridges, which boast solid performance and durability.",
+            "price": 120,
+            "category": 6,
+            "rating": 5,
+            "image_url": "https://static.bhphoto.com/images/images500x500/ortofon_concorde_mkii_mix_cc_1520852791_1395897.jpg",
+            "image": "ortofonconcorde.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "vs3012",
+            "name": "Gorilla LP80 12 - LP Vinyl Record Storage Case",
+            "description": "This popular and ultra cool looking Gorilla LP80 (holds 80pcs records) 12 Vinyl Record storage case in 3 different finishes is the best in its class.",
+            "price": 39.95,
+            "category": 7,
+            "rating": 5,
+            "image_url": "https://whybuynew.2dimg.com/20/1498139029_3074.jpg",
+            "image": "gorillaVinylCase.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "vs30122",
+            "name": "UDG Starter 12 Inch Vinyl Record Bag 50",
+            "description": "The UDG Starter record bag is a medium size bag that holds approximately 50 vinyl records.",
+            "price": 61,
+            "category": 7,
+            "rating": 4.8,
+            "image_url": "https://imagescdn.juno.co.uk/full/IS219244-01-01-BIG.jpg",
+            "image": "udgRecordBag.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "tp30121",
+            "name": "45 Adapters for records",
+            "description": "Allows you to play 45 RPM singles on almost any record player.",
+            "price": 4.99,
+            "category": 8,
+            "rating": 4,
+            "image_url": "https://d111vui60acwyt.cloudfront.net/product_photos/32967396/black2_large.png",
+            "image": "45Adapters.PNG"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "tp30122",
+            "name": "Smiley Slipmats",
+            "description": "Slipmat Technics Logo",
+            "price": 10,
+            "category": 8,
+            "rating": 5,
+            "image_url": "https://cdn.idealo.com/folder/Product/200105/2/200105239/s4_produktbild_max/slipmat-factory-smiley-2x.jpg",
+            "image": "smileySlipmat.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "tp30123",
+            "name": "50Hz Record Weight Turntable",
+            "description": "Disc Stabilizer Stroboscope Gradienter (Silver)",
+            "price": 29.99,
+            "category": 8,
+            "rating": 5,
+            "image_url": "https://www.therecordbloke.com/wp-content/uploads/2020/03/Record-Stabilizer.jpg",
+            "image": "recordStabilizer.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "clt30121",
+            "name": "Mindless Disco Hoodie",
+            "description": "Mindless Disco Varsity, hoodie",
+            "price": 45,
+            "category": 9,
+            "rating": 5,
+            "image_url": "https://cdn.shopify.com/s/files/1/1244/0426/products/wasted-heroes-mindless-disco-hoodie4_1400x.jpg?v=1605991801",
+            "image": "mindlessdisco.PNG"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "clt30122",
+            "name": "Disco Psychedelia - Jacket",
+            "description": "Pullover Jacket is ideal for transitioning between seasons, overcut shoulders and a hood with inside collar and zipper ensure optimal comfort.",
+            "price": 45,
+            "category": 9,
+            "rating": 5,
+            "image_url": "https://cdn.shopify.com/s/files/1/1244/0426/products/disco-psychedelia-pullover-jacket-1_1200x.jpg?v=1590506163",
+            "image": "discopsychedelia.PNG"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "clt30123",
+            "name": "Acid Drop - Sweatshirt - Black",
+            "description": "Printed on 100% Certified Organic Brushed Cotton. Screen printed by hand using environmentally friendly water based inks.",
+            "price": 39,
+            "category": 9,
+            "rating": 5,
+            "image_url": "https://cdn.shopify.com/s/files/1/1244/0426/products/wasted-heroes-acid-drop-long-sleeve-tshirt_1400x.jpg?v=1561083681",
+            "image": "aciddrop.PNG"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "clt30124",
+            "name": "Nice People Dancing To Good Techno Music - Tshirt.",
+            "description": "Long Length Crew Neck. 4 inches longer than our regular crew neck tee.",
+            "price": 28.99,
+            "category": 10,
+            "rating": 5,
+            "image_url": "https://cdn.shopify.com/s/files/1/1244/0426/products/wasted-heroes-longline-nice-people-techno-longline-2_1000x.jpg?v=1567133425",
+            "image": "nicepeople.PNG"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "clt30125",
+            "name": "Jaime Le Discotheque - Black Tshirt",
+            "description": "Printed on a 100% cotton Jersey. Screen printed by hand using environmentally friendly water based inks. Short sleeves, crew neck",
+            "price": 25.99,
+            "category": 10,
+            "rating": 4.5,
+            "image_url": "https://www.resurrection-online.com/images/products/medium/1513791488-50731800.jpg",
+            "image": "jaimediscotheque.PNG"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "clt30126",
+            "name": "Vibes - Kids Tshirt - Black",
+            "description": "Printed on a 100% Combed Cotton Organic T-shirt and Screen printed by hand using environmentally friendly water based inks.",
+            "price": 15.99,
+            "category": 10,
+            "rating": 4.5,
+            "image_url": "https://cdn.shopify.com/s/files/1/1244/0426/products/wasted-heroes-kids-tshirt-vibes_1000x.jpg?v=1571367304",
+            "image": "kidsvibes.PNG"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "clt30127",
+            "name": "Ilegal Rave - Snapback - Full Red",
+            "description": "Illegal Rave Conservation Print Snapback with embroidered badge.",
+            "price": 24.50,
+            "category": 11,
+            "rating": 5,
+            "image_url": "https://cdn.shopify.com/s/files/1/1244/0426/products/wasted-heroes-illegal-rave-snapback-red-2_1200x.jpg?v=1566528328",
+            "image": "cap.PNG"
+        }
+    }
+]
