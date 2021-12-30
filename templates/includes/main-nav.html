@@ -1,43 +1,57 @@
 <div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="{% url 'products' %}" id="all-products">All Products <span class="sr-only">(current)</span></a>
-      </li>
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="all-vinyl" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Vinyl
-        </a>
-        <div class="dropdown-menu" aria-labelledby="all-vinyl">
-          <a class="dropdown-item" href="#">House</a>  
-          <a class="dropdown-item" href="#">Deep House</a>
-          <a class="dropdown-item" href="#">Electro</a>
-          <a class="dropdown-item" href="#">Techno</a>
-        </div>
-      </li>
+  <ul class="navbar-nav mx-auto">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="" id="all-products" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        All Products
+      </a>
+      <div class="dropdown-menu" aria-labelledby="all-products">
+        <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
+        <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
+        <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
+      </div>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="all-djequipment" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dj Equipment
-        </a>
-        <div class="dropdown-menu" aria-labelledby="all-djequipment">
-          <a class="dropdown-item" href="#">Cleaning Vinyl Solutions</a>  
-          <a class="dropdown-item" href="#">Cartridges</a>
-          <a class="dropdown-item" href="#">Vinyl Storage</a>
-          <a class="dropdown-item" href="#">Turntables paraphernalia</a>
-        </div>
-      </li>
+    </li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="all-clothing" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Clothing
-        </a>
-        <div class="dropdown-menu" aria-labelledby="all-clothing">
-          <a class="dropdown-item" href="#">Hoodies</a>  
-          <a class="dropdown-item" href="#">T-Shirts</a>
-          <a class="dropdown-item" href="#">Caps</a>
-        </div>
-      </li>
-      
-    </ul>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="all-vinyl" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Vinyl
+      </a>
+      <div class="dropdown-menu" aria-labelledby="all-vinyl">
+        <a class="dropdown-item" href="{% url 'products' %}?category=house">House</a>
+        <a class="dropdown-item" href="{% url 'products' %}?category=deep_house">Deep House</a>
+        <a class="dropdown-item" href="{% url 'products' %}?category=electro">Electro</a>
+        <a class="dropdown-item" href="{% url 'products' %}?category=techno">Techno</a>
+      </div>
+    </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="" id="all-djequipment" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Dj Equipment
+      </a>
+      <div class="dropdown-menu" aria-labelledby="all-djequipment">
+        <a class="dropdown-item" href="{% url 'products' %}?category=cleaning_vinyl_solutions">Cleaning Vinyl
+          Solutions</a>
+        <a class="dropdown-item" href="{% url 'products' %}?category=cartridges">Cartridges</a>
+        <a class="dropdown-item" href="{% url 'products' %}?category=vinyl_storage">Vinyl Storage</a>
+        <a class="dropdown-item" href="{% url 'products' %}?category=turntables_paraphernalia">Turntables
+          paraphernalia</a>
+      </div>
+    </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="all-clothing" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Clothing
+      </a>
+      <div class="dropdown-menu" aria-labelledby="all-clothing">
+        <a class="dropdown-item" href="{% url 'products' %}?category=hoodies">Hoodies</a>
+        <a class="dropdown-item" href="{% url 'products' %}?category=t_shirts">T-Shirts</a>
+        <a class="dropdown-item" href="{% url 'products' %}?category=caps">Caps</a>
+      </div>
+    </li>
+
+  </ul>
 </div>
