@@ -28,7 +28,21 @@ body {
     z-index: -1;
 }
 
+.text-black {
+    color: #000 !important;
+}
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10;
+}
+
+.btt-link {
+    cursor: pointer;
+}
 
 
 
