@@ -22,7 +22,6 @@
 
     // Increment quantity
     $('.increment-qty').click(function (e) {
-        console.log("incrementing test")
         e.preventDefault();
         var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
         var currentValue = parseInt($(closestInput).val());
