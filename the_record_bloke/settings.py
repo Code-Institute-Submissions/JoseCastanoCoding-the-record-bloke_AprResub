@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
+import dj_database_url
 
 from pathlib import Path
 
@@ -117,13 +118,16 @@ WSGI_APPLICATION = 'the_record_bloke.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR / 'db.sqlite3',
+#    }
+# }
 
+DATABASES = {
+    'default': dj_database_url.parse('postgres://wvjhnbtrrmztev:60cbc6c506ddf654f1a46a1ccde4a4490aa41bed55bed5bdbbdaf955d5fa55aa@ec2-52-17-1-206.eu-west-1.compute.amazonaws.com:5432/db03immlvkk1fm')
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
