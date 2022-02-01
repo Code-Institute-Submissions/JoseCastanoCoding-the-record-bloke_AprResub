@@ -4,7 +4,7 @@
 
 [View the live project here]()
 
-<img src="assets/images/responsiveDesign.PNG" width="600" height="400" />
+<img src="media/amiresponsive.PNG" width="600" height="400" />
 
 # Table Of Contents
 
@@ -170,7 +170,7 @@ UserProfile
 
 ## Skeleton
 
-### Wireframes
+### Wireframes [https://drive.google.com/drive/folders/1j372lHI0HSilU4DPGSjHhVvaFiUFVIqo?usp=sharing]
 
 
 ## Surface
@@ -193,11 +193,7 @@ Bootstrap Colour Classes
 ### Typography
 
 I have used 1 font in this project, which I sourced from Google Fonts;
-- 
-
-Babas Neue was used for all H1 elements on my site. This includes the main site logo, all headings on pages, product names on product detail pages, and post titles. I like this font because it's bold, stands out, and looks clean.
-
-Titillium Web was the secondary font on the site. All general text, buttons, etc. use this font. I chose this as the secondary font because of its clean look and readability. It also works well with the main font I chose.
+- Space Grotesk
 
 ### Imagery
 
@@ -214,9 +210,8 @@ Using imagery is really important on websites as it allows the user to understan
 Responsiveness
 - The site is fully responsive, regardless of device type and screen size.
 
-Navbar & Footer
-- The Navbar and Footers are the same across all pages. The top navbar has the site logo, a working search bar, an account dropdown and a link to the shopping bag. The bottom navbar has links to all areas of the site. Dropdowns are used for the product pages for easy navigation.
-- The footer consists of a brief overview of what the site is, the main menu links and contact information with links to social media sites. Both the navbar and the footer make use of icons taken from Font Awesome to make the site more aesthetically pleasing. 
+Navbar
+- The Navbar is the same across all pages. The top navbar has the site logo, a working search bar, an account dropdown and a link to the shopping bag. The bottom navbar has links to all areas of the site. Dropdowns are used for the product pages for easy navigation.
 
 Messages/Toasts
 - Messages and Toasts are used when executing certain actions on the site, such as logging in and out, adding and removing products from the shopping bag, completing a transaction, and for admin actions too like adding and editing products. 
@@ -317,9 +312,6 @@ Edit Products – Admin Only
 
 [Back to Contents](#table-of-contents)
 
-# Testing
-
-Find the full Testing Document [here!](TESTING.md)
 
 [Back to Contents](#table-of-contents)
 
