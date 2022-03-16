@@ -12,27 +12,46 @@
 
 {% block content %}
 
-<div class="container-fluid justify-content-center">
-    <div id="carouselExampleControls" class="carousel slide mt-5 mb-5" data-ride="carousel">
+<div class="container-fluid" id="carousel-container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{% static 'images/gotafli-uiKua8mg4eo-unsplash.jpg' %}" class="d-block ml-auto mr-auto w-50" alt="...">
+            <div class="carousel-item active background-colour carousel-text">
+                <h1>The Record Bloke</h1>
+                <p>A community to help find vinyl records</p>
+                <a href="{% url 'products' %}">
+                    <button class="btn btn-black rounded-0">Shop Now!</button>
+                </a>
             </div>
             <div class="carousel-item">
-                <img src="{% static 'images/jamakassi-wejxKZ-9IZg-unsplash.jpg' %}" class="d-block ml-auto mr-auto w-50" alt="...">
+                <img src="{% static 'images/jamakassi-wejxKZ-9IZg-unsplash.jpg' %}" alt="...">
+                <h1 id="overlay-text"><span>The Summer Capital of the Philippines<br />Baguio City</span></h1>
             </div>
             <div class="carousel-item">
-                <img src="{% static 'images/mike-von-X4d6DUMappU-unsplash.jpg' %}" class="d-block ml-auto mr-auto w-50" alt="...">
+                <img src="..." alt="...">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </div>
+
+<!--------Footer--------->
+<footer class="container-fluid" id="footer">
+    <div class="row text-center">
+        <div class="col-4">
+            <a href="">
+                <i class="fab fa-4x fa-facebook"></i>
+            </a>
+        </div>
+        <div class="col-4">
+            <a href="">
+                <i class="fab fa-4x fa-instagram-square"></i>
+            </a>
+        </div>
+        <div class="col-4">
+            <a href="">
+                <i class="fab fa-4x fa-twitter-square"></i>
+            </a>
+        </div>
+    </div>
+
+</footer>
 {% endblock %}
