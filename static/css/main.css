@@ -3,18 +3,12 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
+    background: url('/static/images/jamakassi-wejxKZ-9IZg-unsplash.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
     font-family: 'Space Grotesk', sans-serif;
-    box-sizing: border-box;
 }
 
-/* Colour Scheme */
-
-.background-colour {
-    background: #1FC58E;
-}
 
 /* from Bulma: to center fontawesome icons and keep the size */
 .icon {
@@ -35,36 +29,10 @@ body {
     z-index: -1;
 }
 
-/* Carousel */
-
-.carousel {
-    padding-top: 75px;
-    text-align: center;
+.bg-white {
+    background-color: #e65100 !important;
 }
 
-#carousel-container img {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    position: relative;
-}
-
-#overlay-text {
-    position: absolute;
-    top: 0%;
-    width: 100%;
-    left: -9%;
-}
-
-#overlay-text span {
-    color: white;
-    font: bold 24px/45px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0);
-    /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-}
 
 .text-black {
     color: #000 !important;
