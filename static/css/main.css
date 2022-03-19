@@ -25,7 +25,9 @@ body {
     top: 0;
     left: 0;
     position: fixed;
-    background: white;
+    background: url('/static/images/jamakassi-wejxKZ-9IZg-unsplash.jpg') no-repeat center fixed;
+    background-size: cover;
+    filter: blur(5px);
     z-index: -1;
 }
 
@@ -35,13 +37,28 @@ body {
     font-size: 50px;
 }
 
-.bg-white {
-    background-color: #e65100 !important;
+.nav-item-bg {
+    background-color: #1FC58E;
+    border: 5px solid black;
+}
+
+.text-index {
+    color: #1FC58E;
+    font-weight: bold;
 }
 
 
 .text-black {
     color: #000 !important;
+}
+
+.text-muted {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 25px;
 }
 
 .btt-button {

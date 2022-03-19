@@ -13,10 +13,10 @@
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col text-center mt-3">
-                <h2 class="logo-font mt-3">Products</h2>
+            <div class="col text-center mt-5">
+                <h2 class="logo-font mt-3 text-index">Products</h2>
                 {% for c in current_categories %}
-                    <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
+                    <a class="category-badge text-decoration-none nav-item-bg" href="{% url 'products' %}?category={{ c.name }}">
                         <span class="p-3 mt-3 me-1 badge rounded-0 cat-badge">{{ c.friendly_name }}</span>
                     </a>
                 {% endfor %}
@@ -38,9 +38,9 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 order-md-first">
-                        <p class="text-muted mt-3 text-center text-md-left">
+                        <p class="text-index mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
-                                <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                                <span class="large"><a href="{% url 'products' %}" class="text-index">Products Home</a> | </span>
                             {% endif %}
                             {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>
