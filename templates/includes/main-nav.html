@@ -1,8 +1,7 @@
 <div class="collapse navbar-collapse" id="main-nav">
   <ul class="navbar-nav mx-auto font-weight-bold">
     <li class="nav-item d-block d-md-none">
-      <a class="logo-font font-weight-bold text-black nav-link mr-5" 
-        href="{% url 'home' %}" id="home-link"></a>
+      <a class="logo-font font-weight-bold text-black nav-link mr-5" href="{% url 'home' %}" id="home-link"></a>
     </li>
     <li class="nav-item dropdown px-5">
       <a class="nav-link dropdown-toggle nav-item-bg" href="" id="all-products" role="button" data-toggle="dropdown"
@@ -37,7 +36,8 @@
         Dj Equipment
       </a>
       <div class="dropdown-menu" aria-labelledby="all-djequipment">
-        <a class="dropdown-item" href="{% url 'products' %}?category=cleaning_vinyl_solutions,cartridges,vinyl_storage,turntables_paraphernalia">
+        <a class="dropdown-item"
+          href="{% url 'products' %}?category=cleaning_vinyl_solutions,cartridges,vinyl_storage,turntables_paraphernalia">
           All Dj Equipment</a>
         <a class="dropdown-item" href="{% url 'products' %}?category=cleaning_vinyl_solutions">Cleaning Vinyl
           Solutions</a>
@@ -62,3 +62,4 @@
     </li>
   </ul>
 </div>
+

@@ -12,11 +12,11 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <div class="container mb-2">
+    <div class="container mb-2 mt-5">
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Shopping Bag</h2>
+                <h2 class="logo-font mb-4 text-index">Shopping Bag</h2>
                 <hr>
             </div>
         </div>
@@ -33,7 +33,7 @@
                         <div class="row">
                             <div class="col">
                                 {% include "bag/checkout_buttons.html" %}
-                                <p class="text-muted mb-5">A summary of your bag contents is below</p>
+                                <p class="text-index mb-5">A summary of your bag contents is below</p>
                             </div>
                         </div>
                         {% for item in bag_items %}
@@ -62,7 +62,7 @@
                     </div>
                     <div class="table-responsive rounded d-none d-md-block">
                         <table class="table table-sm table-borderless">
-                            <thead class="text-black">
+                            <thead class="text-index">
                                 <tr>
                                     <th scope="col">Product Info</th>
                                     <th scope="col"></th>
@@ -73,7 +73,7 @@
                             </thead>
 
                             {% for item in bag_items %}
-                                <tr>
+                                <tr class="text-index">
                                     <td class="p-3 w-25">
                                         {% include "bag/product_image.html" %}
                                     </td>
@@ -104,7 +104,7 @@
                         </table>
                     </div>
                 {% else %}
-                    <p class="lead mb-5">Your bag is empty.</p>
+                    <p class="lead mb-5 text-index">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
@@ -118,7 +118,24 @@
 {% endblock %}
 
 {% block postloadjs %}
+<script type="text/javascript">
+    $(window).scroll(function (e) {
+        var $el = $('header');
+
+        if ($(this).scrollTop() > 200) {
+            $('header').css({
+                'display': 'none'
+            });
+        }
+        if ($(this).scrollTop() < 200) {
+            $('header').css({
+                'display': 'block'
+            });
+        }
+    });
+</script>
 {{ block.super }}
+
 <script type="text/javascript">
     $('.btt-link').click(function(e) {
         window.scrollTo(0,0)
