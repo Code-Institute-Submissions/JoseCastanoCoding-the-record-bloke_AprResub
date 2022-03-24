@@ -176,8 +176,12 @@ input[name='q']::placeholder {
 .allauth-form-inner-content p {
     margin-top: 1.5rem;
     /* mt-4 */
-    color: #6c757d;
+    color: #1FC58E;
     /* text-secondary */
+}
+
+.form-check-label {
+    color: #1FC58E;
 }
 
 .allauth-form-inner-content input {
@@ -225,6 +229,7 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content a {
     color: #17a2b8;
+    font-weight: bold;
     /* text-info */
 }
 

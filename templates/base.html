@@ -66,7 +66,7 @@
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-                    <li class="list-inline-item dropdown px-5 nav-item-bg">
+                    <li class="list-inline-item dropdown nav-item-bg">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
@@ -87,7 +87,7 @@
                             {% endif %}
                         </div>
                     </li>
-                    <li class="list-inline-item px-5 nav-item-bg">
+                    <li class="list-inline-item nav-item-bg">
                         <a class="{% if grand_total %}text-info{% else %}text-black{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
                             <div class="text-center">
@@ -116,6 +116,28 @@
             </nav>
         </div>
     </header>
+
+    <!--------Footer--------->
+    <footer class="container" id="footer">
+        <div class="row text-center">
+            <div class="col-4">
+                <a href="">
+                    <i class="fab fa-4x fa-facebook"></i>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="">
+                    <i class="fab fa-4x fa-instagram-square"></i>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="">
+                    <i class="fab fa-4x fa-twitter-square"></i>
+                </a>
+            </div>
+        </div>
+
+    </footer>
 
     {% if messages %}
     <blockquote class="blockquote">
