@@ -75,7 +75,7 @@ body {
     cursor: pointer;
 }
 
-.blockquote {
+.message-container {
     position: fixed;
     top: 72px;
     right: 15px;
