@@ -47,6 +47,20 @@ body {
     font-weight: bold;
 }
 
+.dropdown-menu {
+    background-color: #1FC58E;
+}
+
+.dropdown-item, .dropdown-item.active, .dropdown-item:active {
+    background-color: #1FC58E;
+    color: #000;
+}
+
+.dropdown-item:hover {
+    background-color: #000;
+    color: #1FC58E;
+    font-weight: bold;
+}
 
 .text-black {
     color: #000 !important;
@@ -143,18 +157,18 @@ body {
 
 .btn-black {
     background: black;
-    color: white;
+    color: #1FC58E;
 }
 
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: white;
+    color: #1FC58E;
 }
 
 .btn-outline-black {
-    background: white;
+    background: #1FC58E;
     color: black !important;
     /* use important to override link colors for <a> elements */
     border: 1px solid black;
@@ -164,7 +178,7 @@ body {
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
-    color: white !important;
+    color: #1FC58E !important;
 }
 
 input[name='q']::placeholder {
@@ -339,7 +353,7 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 
-    .display-4.logo-font.text-black {
+    .display-4.text-black {
         font-size: 2rem;
     }
 
