@@ -2,7 +2,7 @@
 
 <h2>4th Milestone Project</h2>
 
-[View the live project here]()
+[View the live project here](https://jose-the-record-bloke.herokuapp.com/)
 
 <img src="media/amiresponsive.PNG" width="600" height="400" />
 
@@ -104,7 +104,7 @@ The structure of my site is shown below. I outline the apps I have, and what HTM
 **HTML files**
 
 index.html
-- This is the main page of my site. There is a carousel with two images.  
+- This is the main page of my site. There is an image that occupies all of the background.  
 
 ### Products App
 
