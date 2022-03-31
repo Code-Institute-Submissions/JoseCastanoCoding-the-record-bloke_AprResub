@@ -4,13 +4,15 @@ from django.contrib import messages
 
 # Create your views here.
 
+
 def view_bag(request):
     """ A view to render the bag page """
-    
+  
     return render(request, 'bag/bag.html')
 
 
 def add_to_bag(request, item_id):
+    """ A view to add products to the bag """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -44,6 +46,7 @@ def add_to_bag(request, item_id):
 
 
 def adjust_bag(request, item_id):
+    """ A view to make adjustments to the shopping bag """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -74,6 +77,7 @@ def adjust_bag(request, item_id):
 
 
 def remove_from_bag(request, item_id):
+    """ A view to remove items from the bag """
 
     try:
         product = get_object_or_404(Product, pk=item_id)
@@ -96,5 +100,6 @@ def remove_from_bag(request, item_id):
         return HttpResponse(status=200)
 
     except Exception as e:
+
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
